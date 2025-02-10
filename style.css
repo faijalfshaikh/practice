@@ -19,4 +19,16 @@ html,body {
     height: 80px;
     width: 100%;
     background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar img{
+    height: 80px;
+    object-fit: cover;
+}
+
+#links a {
+    text-decoration: none;
 }
