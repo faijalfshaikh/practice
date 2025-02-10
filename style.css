@@ -14,3 +14,9 @@ html,body {
     width: 100%;
     background-color: red;
 }
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: cyan;
+}
