@@ -12,23 +12,33 @@ html,body {
 #main {
     height: 100%;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #navbar{
     height: 80px;
     width: 100%;
-    background-color: cyan;
+    /* background-color: cyan; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+#navbar h2{
+    position: absolute;
+    top: 30px;
+    left: 45%;
+    transform: translateX(-50%);
 }
 
 #navbar img{
-    height: 80px;
+    height: 80%;
     object-fit: cover;
+    margin-left: 20px;
 }
 
 #links a {
     text-decoration: none;
+    padding: 10px 15px;
 }
